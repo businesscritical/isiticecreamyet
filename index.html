@@ -1,0 +1,19 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1 id="answer" style="text-align: center; font-size: 136px"></h1>
+    <script type="text/javascript">
+      document.getElementById("answer").innerHTML = answer();
+
+      function answer() {
+        if (new Date().getHours() < 14) {
+          return "NO!"
+        } else {
+          return "YES!"
+        }
+      }
+    </script>
+  </body>
+</html>
+
